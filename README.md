@@ -74,7 +74,7 @@ A Yu-Gi-Oh! card game in C++ with OOP and data structures.
 This project was implemented on my macbook using:
 - Xcode at the time. Any terminal with gcc installed will work
 - Clone this repository 
-- Open terminal at the codebase `~.../yu-gi-oh--c-/morse-codebase/`
+- Open terminal at the codebase `~.../yu-gi-oh--c-/yugioh-codebase/`
 - Run the `a.out` that is included or compile your own executable with
 ```zsh
 g++ -o my_program main.cpp
