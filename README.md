@@ -21,7 +21,7 @@
     alt="Website Badge" />
 </p>
 
-A Yu-Gi-Oh! card game in C++ with OOP and data structures.
+This is a Yu-Gi-Oh! card game made in C++. That included designing and testing classes, implementing class templates, and utilizing data structures like stacks and queues for card decks and player hands. Players could create decks, add cards, and engage in battles. The game logic included handling life points, attack and defense mechanics, and determining the winner. Key skills demonstrated in this project included object-oriented programming, file I/O, and data management in C++.
 
 ![project image](resources/image1.png)
 
@@ -47,8 +47,9 @@ A Yu-Gi-Oh! card game in C++ with OOP and data structures.
 ---
 
 # What I Learned in this Project
-- How to
-- Programming in 
+- Using C++ to design and test classes with implementations using class templates.
+- Utilizing data structures like stacks and queues for card decks and player hands.
+- Demonstrating knowledge in object-oriented programming, file I/O, and data management in C++ when dereferencing pointers.
 
 
 
