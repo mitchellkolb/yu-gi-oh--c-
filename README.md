@@ -21,7 +21,8 @@
     alt="Website Badge" />
 </p>
 
-This is a Yu-Gi-Oh! card game made in C++. That included designing and testing classes, implementing class templates, and utilizing data structures like stacks and queues for card decks and player hands. Players could create decks, add cards, and engage in battles. The game logic included handling life points, attack and defense mechanics, and determining the winner. Key skills demonstrated in this project included object-oriented programming, file I/O, and data management in C++.
+This is a text based recreation of the Yu-Gi-Oh! card game, written in C++. I focused on the implementation of key data structures such as stacks and queues to manage gameplay mechanics. This project shows off my knowledge of object-oriented design principles, efficient data handling, and the application of class templates.
+
 
 ![project image](resources/image1.png)
 
@@ -41,7 +42,11 @@ This is a Yu-Gi-Oh! card game made in C++. That included designing and testing c
 - [Team / Contributors / Teachers](#team--contributors--teachers)
 - [How to Set Up](#how-to-set-up)
 - [Project Overview](#project-overview)
-- [References](#references)
+    - [Gameplay Details](#gameplay-details)
+    - [Data Structures Used](#data-structures-used)
+    - [Files and Structure](#files-and-structure)
+    - [Results](#results)
+    - [Future Work](#future-work)
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -86,50 +91,33 @@ g++ -o my_program main.cpp
 
 
 
-
 # Project Overview
-This project utilizes 
+This project is a C++ implementation of the Yu-Gi-Oh! card game. The game includes designing and testing classes, implementing class templates, and utilizing data structures like stacks and queues for managing card decks and player hands. Players can create decks, add cards, and engage in battles where the game logic handles life points, attack and defense mechanics, and determines the winner.
+
+## Gameplay Details
+The gameplay involves two players who start with a deck of cards, represented using a stack. Players draw cards from their decks into their hands and place cards into attack and defense queues. The game proceeds in turns, where players choose cards from their queues to engage in battles. The outcome of each battle is determined by comparing the attack and defense points of the chosen cards, and life points are adjusted accordingly. The game continues until one player's life points are reduced to zero, determining the winner.
+
+## Data Structures Used
+In this project, I used several key data structures:
+- **Stacks:** Used to represent the players' decks, where cards are drawn from the top.
+- **Queues:** Used to manage the cards in attack and defense positions, ensuring that the order of play is maintained.
+- **Arrays:** Used to store the players' hands, allowing them to select cards for battle.
+
+
+## Files and Structure
+- **`main.cpp`**: Implements the game logic and user interface, allowing players to create decks, add cards, and initiate battles.
+- **`Queue.h` and `Queue.cpp`**: Define and implement the Queue class, which is used to manage the attack and defense cards in play.
+- **`Stack.h` and `Stack.cpp`**: Define and implement the Stack class, which is used to manage the players' card decks.
+- **`Yu_Gi_Oh_card_list_full.csv` and `Yu_Gi_Oh_Card_list.csv`**: Contain lists of cards that can be used to populate the players' decks. The full card list contains more card details that I didn't include functionality for in my game.
+
+## Results
+I successfully implemented the core gameplay mechanics, including deck management, card battles, and life point calculations. The game runs smoothly, and the logic correctly handles various scenarios, such as ties in attack and defense. I consider this programming project as one that demonstrates that I have a solid understanding of object-oriented programming and data structure utilization.
+
+## Future Work
+Future improvements could include expanding the game's rules to include more complex card effects or implementing a graphical user interface to enhance the player experience.
 
 
 
-## Project Details
-
-### Introduction
-In this project, we apply 
-
-
-### Literature Review
-In this we drew inspiration from various sources, including video tutorials online for 
-
-
-### Technical Plan
-The project employs a 
-
-
-### Implementation Details
-
-#### Files and Structure
-- `game.py`: Contains the racing game environment and controls the car's movement.
-> [!NOTE]
-> These files were 
-
-
-### Implementation
-In this project
-
-#### Results and Observations
-During development,
-<p float="left">
-  <img src="resources/image1.png" alt="First Try" width="300" />
-  <img src="resources/image2.png" alt="Final Try" width="307" />
-</p>
-
-#### Future Work
-Future improvements could include
-
-
-
-## References
 
 
 
