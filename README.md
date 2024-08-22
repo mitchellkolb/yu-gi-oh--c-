@@ -24,16 +24,17 @@
 This is a text based recreation of the Yu-Gi-Oh! card game, written in C++. I focused on the implementation of key data structures such as stacks and queues to manage gameplay mechanics. This project shows off my knowledge of object-oriented design principles, efficient data handling, and the application of class templates.
 
 
-![project image](resources/image1.png)
+![project image](resources/yu-gi-oh-gif.gif)
 
 <details>
 <summary style="color:#5087dd">Watch the Full Video Demo Here</summary>
 
-[![Full Video Demo Here](https://img.youtube.com/vi/VidKEY/0.jpg)](https://www.youtube.com/watch?v=VidKEY)
+[![Full Video Demo Here](https://img.youtube.com/vi/_xjbwXPnGbE/0.jpg)](https://www.youtube.com/watch?v=_xjbwXPnGbE)
 
 </details>
 
 ---
+
 
 
 # Table of Contents
@@ -83,7 +84,7 @@ This project was implemented on my macbook using:
 - Open terminal at the codebase `~.../yu-gi-oh--c-/yugioh-codebase/`
 - Run the `a.out` that is included or compile your own executable with
 ```zsh
-g++ -o my_program main.cpp
+g++ -o my_program main.cpp Queue.cpp Stack.cpp
 ```
 - Then use `./a.out` or `./my_program` depending on whatever you named your executable.
 
